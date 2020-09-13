@@ -52,7 +52,7 @@ types_counts <- types_counts %>% # combines (through addition) the two Counts co
 ui <- navbarPage(
   theme = shinytheme("flatly"),
   title = div(tags$img(height = 33, width = 33, src = "pokeball.png"), "Making Comparisons Within the World of Pokemon"), 
-  windowTitle = "Shiny Comparisons in Pokemon",
+  windowTitle = "Comparisons in Pokemon",
   tabPanel(title = "Introduction",
            tags$h1("Introduction"),
            tags$p("This is a shiny app designed to aid Pokemon fans in choosing certain (mainline) Pokemon games or Pokemon to build their team with. 
